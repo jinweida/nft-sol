@@ -1,0 +1,20 @@
+module.exports = {
+    url:'http://34.80.85.198:10002',
+    chainId:666666,
+    // blockGasLimit:285000000000,
+    loggingEnabled: true,
+    gasPrice: 50*1000000000,
+    gasLimit: 100*1000000000,
+    accounts:["0x4f255daf0fcb1c10ae90346a676fec0ea01951c7f85ac7f278c2ec1a3c852fc0","0x7e931af3a0886a6460dba4b5dc129361a7a8c3363c821d83f4118493818f3bf4"],
+    attachs:{
+      wmatic:"0x83cA34389cC9Ab76adD584Be223cABd03aB2122A",
+      ngowallet:"0x9A0B8a696Fbd71d4B244168A9516602f10A4EEC2",
+      ngo:"0x5A98898A9df72678D092256470e604E9576AbE9a", 
+      mtt:  "0xA11F64D423d57e03591Bc9c9dA52ca97D504b760",
+      admin1:"0xa52A3dcf715a262d4B5B54BfCc29d3007b6d3d71",
+      admin2:"0x05378DE57b05925a5D5582356060885B1217D1e0",
+      fee: "0x3EAF6682b46bd5A48EEF33A067A5d5Af2552a525",
+      wmarket:"0xa2bbA57cE02E1e2A35dC0525A6Ff9AdB3d25964D",
+      router:"0x5311261C43dA4724CD9B3F165F408C820eb0C025",
+    }
+}
